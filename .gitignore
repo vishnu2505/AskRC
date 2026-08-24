@@ -1,0 +1,14 @@
+logs/
+src/data_pipeline/__pycache__
+dags/__pycache__/
+askrc/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.env
+src/data_pipeline/.env
+src/model/.env
+askrc-env/
+.dvc/config.local
+mlruns/
