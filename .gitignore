@@ -12,3 +12,36 @@ src/model/.env
 askrc-env/
 .dvc/config.local
 mlruns/
+
+# macOS
+.DS_Store
+
+# Claude Code machine-local state (.claude/skills/ is shared and committed)
+.claude/settings.local.json
+
+# Jira import scaffolding — regenerable, one-time use
+jira/
+
+# Test + coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Editors
+.idea/
+.vscode/
+
+# Airflow local state
+airflow.db
+airflow.cfg
+airflow-webserver.pid
+standalone_admin_password.txt
+webserver_config.py
+
+# NLTK downloads
+nltk_data/
